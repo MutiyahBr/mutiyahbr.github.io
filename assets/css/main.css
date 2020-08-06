@@ -1,0 +1,303 @@
+@font-face {
+    font-family: Francois;
+    src: url("../fonts/FrancoisOne-Regular.ttf");
+  }
+
+@font-face {
+    font-family: Gilda;
+    src: url("../fonts/GildaDisplay-Regular.ttf");
+  }
+
+nav{
+    margin:0;
+}
+
+.nav-wrapper {
+    background-color: white;
+}
+
+.material-icons {
+    color: #B8B8B8;
+}
+
+.menu {
+    font-family: Gilda;
+    font-size: 0.5em;
+    color: black;
+}
+
+/* Home Page */
+aside {
+    background-color: #F5F5F5;
+    margin: 0;
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+aside> h1 {
+    font-family: Francois;
+    font-size: 1.5em;
+    color: black;
+    width: 20%;
+    float: left;
+    margin-top: 25px;
+}
+
+aside> ul {
+    float: right;
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+aside> ul> li{
+    float: left;
+    margin-right: 10px;
+}
+aside h2{
+    font-family: Gilda;
+    font-size: 1em;
+    color: black;
+    float: left;
+    padding: 0;
+    margin: 0;
+    
+}
+
+aside h3 {
+    font-family: Gilda;
+    font-size: 0.8em;
+    color: #B8B8B8;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    font-family: Gilda;
+    color: black;
+    font-size: 0.8em;
+    width: 90% !important;
+    margin: 10px !important;
+}
+table tr{
+    padding: 0 10px;
+    margin-bottom: 10px !important;
+    outline: black !important;
+}
+
+table img {
+    width: 30px;
+}
+
+table th, table td {
+    text-align: center;
+}
+
+.preloader-wrapper {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+/* Bookmark Page */
+ .bookmark {
+    font-size: 2em;
+    padding-left: 30px;
+    width: 30%;
+ }
+
+ /* Club Page */
+.club{
+    padding-bottom: 100px;
+}
+ .club> img {
+    width: 80%;
+    margin: 10px 30px;
+ }
+
+ .club div.club-detail {
+    background-color: #F5F5F5;
+    font-family: Gilda;
+    width: 100%;
+    color: black;
+    margin: 0;
+    padding: 30px;
+ }
+
+.club h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+.club h2 {
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+
+.club ul{
+    font-family: Francois;
+    font-size: 1em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.club ul p {
+    font-family: Gilda;
+    margin-top: 0;
+}
+.club> h2{
+    font-family: Francois;
+    margin: 50px 0 0 30px;
+}
+
+/* Responsive Page*/
+@media only screen and (min-width: 600px) {
+    .menu{
+        font-size: 1em !important;
+    }
+    aside {
+        padding: 10px 40px;
+    }
+    
+    aside> h1 {
+        font-size: 2.5em;
+    }
+    aside> ul {
+        margin-top: 50px;
+    }
+    
+    aside> ul> li{
+        margin-right: 20px;
+    }
+    aside h2{
+        font-size: 1.5em;
+        
+    }
+    
+    aside h3 {
+        font-size: 1em;
+    }
+    
+    table {
+        font-size: 1em;
+        margin: 20px !important;
+    }
+    
+    /* Bookmark Page */
+     .bookmark {
+        font-size: 2.5em;
+     }
+    
+     /* Club Page */
+     .club> img {
+        width: 70%;
+        margin: 20px 80px;
+     }
+    
+     .club div.club-detail {
+        padding: 50px;
+     }
+    
+    .club h1 {
+        font-size: 2.5em;
+    }
+
+    .club h2 {
+        font-size: 2em;
+        margin-top: 5px;
+    }
+
+    .club ul{
+        font-size: 1.5em;
+    }
+   
+}
+
+@media only screen and (min-width: 992px) {
+    aside {
+        float: none;
+        height: 100%;
+        width: 30%;
+        padding: 60px;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+    aside> h1 {
+        font-size: 3em !important;
+        float: none;
+    }
+    aside> ul {
+        margin-left: 0;
+        margin-top: 30px;
+        float: none;
+    }
+    
+    aside> ul> li{
+        margin: 30px 0;
+    }
+
+    aside h2{
+        font-size: 2em;
+        margin-bottom: 10px;
+        
+    }
+
+    aside h3 {
+        font-size: 1.5em;
+    }
+    
+    table {
+        font-size: 1em;
+        margin: 20px !important;
+        position: absolute;
+        right: 0;
+        width: 60% !important;
+    }
+    
+     /* Club Page */
+     .club> img {
+        width: auto;
+        height: 400px;
+        margin: 0 20px;
+        float: left;
+     }
+    
+     .club div.club-detail {
+        padding: 50px;
+        float: right;
+        width: 65%;
+        margin-bottom: 100px;
+     }
+    
+    .club h1 {
+        font-size: 2em;
+    }
+    
+    .club h2 {
+        font-size: 1.5em;
+    }
+    
+    .club ul{
+        font-size: 1em;
+    }
+    .club>h2 {
+       clear: both;
+    }
+
+    .club table {
+        left: 0;
+
+    }
+    
+}
+@media only screen and (min-width: 1200px) {
+  
+    /* Club Page */
+    .club> img {
+       margin-left: 50px;
+       width: 350px;
+     }
+}
+
+
